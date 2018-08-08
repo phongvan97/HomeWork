@@ -216,6 +216,7 @@ ul{
     height: 60%;
 }
 .content-row2{
+    padding-left: 30px;
     padding-top: 10px;
     margin-left: -2%;
     width: 104%;
@@ -229,20 +230,23 @@ ul{
 }
 .content-row2 li{
     float: right;
-    margin-right: 30px;
+    margin-right: 80px;
     font-size: 20px;
 }
 .row2-item{
-    width: 25%;
-    height: 45%;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 23%;
+    height: 43%;
     /*background-color: #008E00;*/
     float: left;
+    padding: 10px;
 }
 .row2-item img{
-    text-align: center;
+    padding: 15px;
+    
     width: 85%;
     height: 70%;
-    margin: 20px;
 }
 .content-row3{
     width: 100%;
